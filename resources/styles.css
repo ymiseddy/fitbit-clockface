@@ -1,0 +1,150 @@
+.defaultText {
+  font-size: 32;
+  font-family: System-Regular;
+  font-weight: regular;
+  text-length: 32;
+}
+
+#background {
+  width: 100%;
+  height: 100%;
+  fill: black;
+}
+
+#dateLabel {
+  font-size: 35;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 20%;
+  fill: orange;
+}
+
+#epochLabel {
+  font-size: 20;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 50%-65;
+  fill: orange;
+}
+
+
+#utcLabel {
+  font-size: 30;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 50%-30;
+  fill: orange;
+}
+
+#clockLabel {
+  font-size: 60;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 50%+30;
+  fill: orange;
+}
+
+#battery {
+}
+
+#stepIcon {
+  text-length: 100;
+  fill: crimson;
+  x: 10%;
+  y: 80%-24;
+  width: 24;
+  height: 24;
+}
+
+#stepLabel {
+  font-size: 25;
+  fill: yellow;
+  text-length: 100;
+  x: 10%+28;
+  y: 80%;
+}
+
+#stepPaceLabel {
+  font-size: 25;
+  fill: yellow;
+  text-length: 100;
+  x: 10%+29;
+  y: 80%+28;
+}
+
+#activityIcon {
+  text-length: 100;
+  fill: cyan;
+  x: 50%;
+  y: 80%-24;
+  width: 24;
+  height: 24;
+}
+
+#activityLabel {
+  font-size: 25;
+  fill: cyan;
+  x: 50%+25;
+  y: 80%;
+}
+
+#heartRateIcon {
+  text-length: 100;
+  fill: crimson;
+  x: 75%;
+  y: 80%-24;
+  width: 24;
+  height: 24;
+}
+
+
+#heartRateLabel {
+  font-size: 25;
+  text-legth: 150;
+  fill: crimson;
+  x: 75%+25;
+  y: 80%;
+}
+
+
+#stairIcon {
+  fill: aqua;
+  x: 50%;
+  y: 90%-24;
+  width: 24;
+  height: 24;
+}
+
+#stairLabel {
+  font-size: 25;
+  fill: aqua;
+  text-length: 100;
+  x: 50%+25;
+  y: 90%;
+}
+
+
+#calorieIcon {
+  fill: green;
+  x: 70%;
+  y: 90%-24;
+  width: 24;
+  height: 24;
+}
+
+#calorieLabel {
+  font-size: 25;
+  fill: green;
+  text-length: 100;
+  x: 70%+25;
+  y: 90%;
+}
+

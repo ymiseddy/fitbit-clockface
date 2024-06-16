@@ -1,0 +1,25 @@
+<svg>
+     <rect id="background" />
+     <svg id="battery" x="90%" y="10%" fill="orange">
+          <rect x="4" y="0" width="4" height="2" fill="orange" />>
+          <rect x="0" y="2" width="12" height="25" fill="orange" />>
+          <rect id="batteryLevel" x="2" y="4" width="8" height="22" fill="black" />>
+     </svg>
+
+     <text id="dateLabel" />
+     <text id="epochLabel" />
+     <text id="utcLabel" />
+     <text id="clockLabel" />
+
+     <image id="stepIcon" href="stat_steps_solid_24px.png" />
+     <text id="stepLabel">--</text>
+     <text id="stepPaceLabel">--</text>
+     <image id="activityIcon" href="stat_am_solid_24px.png" />
+     <text id="activityLabel">--</text>
+     <image id="heartRateIcon" href="stat_hr_solid_24px.png" />
+     <text id="heartRateLabel">--</text>
+     <image id="stairIcon" href="stat_floors_solid_24px.png" />
+     <text id="stairLabel">--</text>
+     <image id="calorieIcon" href="stat_cals_solid_24px.png" />
+     <text id="calorieLabel">--</text>
+</svg>
