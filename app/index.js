@@ -91,8 +91,13 @@ function drawStepInfo() {
 
 	const targetSteps = Math.floor(goalSteps * dayFraction);
 	let remaining = targetSteps - today.adjusted.steps;
-	remaining = remaining < 0 ? 0 : remaining;
+	let ahead = false;
+	if (remaining < 0) {
+		ahead = true;
+		remaining = Math.abs(remaining);
+	}
 	stepLabel.text = today.adjusted.steps;
+	stepPaceLabel.style.fill = ahead ? "green" : "yellow";
 	stepPaceLabel.text = remaining
 }
 
