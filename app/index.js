@@ -44,7 +44,7 @@ function drawTime(evt) {
 	let eventDate = evt.date;
 
 	const year = eventDate.getFullYear();
-	var month = zeroPad(eventDate.getMonth());
+	var month = zeroPad(eventDate.getMonth() + 1);
 	var day = zeroPad(eventDate.getDate());
 	dateLabel.text = `${year}-${month}-${day}`;
 
