@@ -1,3 +1,4 @@
+
 .defaultText {
   font-size: 32;
   font-family: System-Regular;
@@ -18,7 +19,7 @@
   text-anchor: middle;
   x: 50%;
   y: 20%;
-  fill: orange;
+  fill: steelblue;
 }
 
 #epochLabel {
@@ -28,7 +29,7 @@
   text-anchor: middle;
   x: 50%;
   y: 50%-65;
-  fill: orange;
+  fill: steelblue;
 }
 
 
@@ -39,7 +40,7 @@
   text-anchor: middle;
   x: 50%;
   y: 50%-30;
-  fill: orange;
+  fill: steelblue;
 }
 
 #clockLabel {
@@ -49,7 +50,7 @@
   text-anchor: middle;
   x: 50%;
   y: 50%+30;
-  fill: orange;
+  fill: steelblue;
 }
 
 #battery {
@@ -57,7 +58,7 @@
 
 #stepIcon {
   text-length: 100;
-  fill: yellow;
+  fill: papayawhip;
   x: 10%;
   y: 80%-24;
   width: 24;
@@ -66,7 +67,7 @@
 
 #stepLabel {
   font-size: 25;
-  fill: yellow;
+  fill: papayawhip;
   text-length: 100;
   x: 10%+28;
   y: 80%;
@@ -74,7 +75,7 @@
 
 #stepPaceLabel {
   font-size: 25;
-  fill: yellow;
+  fill: papayawhip;
   text-length: 100;
   x: 10%+29;
   y: 80%+28;
@@ -82,7 +83,7 @@
 
 #activityIcon {
   text-length: 100;
-  fill: cyan;
+  fill: slategray;
   x: 50%-25;
   y: 80%-24;
   width: 24;
@@ -91,14 +92,14 @@
 
 #activityLabel {
   font-size: 25;
-  fill: cyan;
+  fill: slategray;
   x: 50%;
   y: 80%;
 }
 
 #heartRateIcon {
   text-length: 100;
-  fill: crimson;
+  fill: sienna;
   x: 70%;
   y: 80%-24;
   width: 24;
@@ -109,14 +110,14 @@
 #heartRateLabel {
   font-size: 25;
   text-length: 100;
-  fill: crimson;
+  fill: sienna;
   x: 70%+25;
   y: 80%;
 }
 
 
 #stairIcon {
-  fill: aqua;
+  fill: slategray;
   x: 50%-25;
   y: 90%-24;
   width: 24;
@@ -125,7 +126,7 @@
 
 #stairLabel {
   font-size: 25;
-  fill: aqua;
+  fill: slategray;
   text-length: 100;
   x: 50%;
   y: 90%;
@@ -148,3 +149,10 @@
   y: 90%;
 }
 
+.batteryFill {
+  batteryFill: steelblue;
+}
+
+.batteryClear {
+  batteryClear: black;
+}

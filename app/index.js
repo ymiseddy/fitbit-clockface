@@ -4,6 +4,7 @@ import { battery } from "power";
 import { today, goals } from 'user-activity';
 import { HeartRateSensor } from "heart-rate";
 
+const dow = ["Su", "Mo", "Tu", "We", "Th", "Fr", "Sa"];
 
 function zeroPad(i) {
 	if (i < 10) {
@@ -46,7 +47,8 @@ function drawTime(evt) {
 	const year = eventDate.getFullYear();
 	var month = zeroPad(eventDate.getMonth() + 1);
 	var day = zeroPad(eventDate.getDate());
-	dateLabel.text = `${year}-${month}-${day}`;
+	var dayOfWeek = dow[eventDate.getDay()];
+	dateLabel.text = `${dayOfWeek} ${year}-${month}-${day}`;
 
 
 	// Epoch seconds
@@ -97,7 +99,7 @@ function drawStepInfo() {
 		remaining = Math.abs(remaining);
 	}
 	stepLabel.text = today.adjusted.steps;
-	stepPaceLabel.style.fill = ahead ? "green" : "yellow";
+	stepPaceLabel.style.fill = ahead ? "teal" : "palevioletred";
 	stepPaceLabel.text = remaining
 }
 
