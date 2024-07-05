@@ -1,9 +1,9 @@
 <svg>
      <rect id="background" />
      <svg id="battery" x="90%" y="10%" fill="steelblue">
-          <rect class="batteryFill" x="4" y="0" width="4" height="2" />>
-          <rect class="batteryFill" x="0" y="2" width="12" height="25" />>
-          <rect class="batteryClear" id="batteryLevel" x="2" y="4" width="8" height="22" />>
+          <rect class="batteryOutline" x="0" y="2" width="12" height="25" />
+          <rect class="batteryFill" x="4" y="0" width="4" height="25" />
+          <rect class="batteryClear" id="batteryLevel" x="2" y="4" width="8" height="22" />
      </svg>
 
      <text id="dateLabel" />

@@ -150,9 +150,13 @@
 }
 
 .batteryFill {
-  batteryFill: steelblue;
+  fill: green;
+}
+
+.batteryOutline {
+  stroke: steelblue;
 }
 
 .batteryClear {
-  batteryClear: black;
+  fill: black;
 }
