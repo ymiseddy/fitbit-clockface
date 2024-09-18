@@ -34,6 +34,7 @@ clock.ontick = (evt) => {
 	drawCalories();
 	drawActivity();
 	drawStairs();
+	drawDistance();
 }
 
 const dateLabel = document.getElementById("dateLabel");
@@ -122,4 +123,14 @@ function drawHeartRate(hrm) {
 const stairLabel = document.getElementById("stairLabel");
 function drawStairs() {
 	stairLabel.text = today.adjusted?.elevationGain ?? "--";
+}
+
+const distanceLabel = document.getElementById("distanceLabel");
+function drawDistance() {
+	let distance = today.adjusted?.distance;
+	if (distance === null) {
+		distanceLabel.text = "-- mi";
+	}
+	let distanceMiles = (distance * 0.000621371).toFixed(2);
+	distanceLabel.text = distanceMiles + " mi"
 }

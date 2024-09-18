@@ -81,6 +81,17 @@
   y: 80%+28;
 }
 
+#distanceLabel {
+  font-size: 25;
+  text-length: 100;
+  fill: slategray;
+  x: 50%-50;
+  y: 80%-34;
+  width: 100;
+  height: 24;
+
+}
+
 #activityIcon {
   text-length: 100;
   fill: slategray;
@@ -91,6 +102,7 @@
 }
 
 #activityLabel {
+  text-length: 100;
   font-size: 25;
   fill: slategray;
   x: 50%;

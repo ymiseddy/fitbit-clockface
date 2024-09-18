@@ -10,6 +10,8 @@
      <text id="epochLabel" />
      <text id="utcLabel" />
      <text id="clockLabel" />
+     
+	<text id="distanceLabel">--</text>
 
      <image id="stepIcon" href="stat_steps_solid_24px.png" />
      <text id="stepLabel">--</text>
