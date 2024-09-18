@@ -129,8 +129,9 @@ const distanceLabel = document.getElementById("distanceLabel");
 function drawDistance() {
 	let distance = today.adjusted?.distance;
 	if (distance === null) {
-		distanceLabel.text = "-- mi";
+		distanceLabel.text = "-- mi / -- km";
 	}
 	let distanceMiles = (distance * 0.000621371).toFixed(2);
-	distanceLabel.text = distanceMiles + " mi"
+	let distanceKm = (distance / 1000).toFixed(2);
+	distanceLabel.text = distanceMiles + " mi" + " / " + distanceKm + " km";
 }
